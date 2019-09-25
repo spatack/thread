@@ -21,5 +21,14 @@ public class RunnableDemo implements Runnable {
         Thread t1 = new Thread(new RunnableDemo());
         // 启动线程
         t1.start();
+
+        // 创建多个线程实例，并启动线程
+        Thread t2 = new Thread(new RunnableDemo());
+        Thread t3 = new Thread(new RunnableDemo());
+        Thread t4 = new Thread(new RunnableDemo());
+        t2.start();
+        t3.start();
+        t4.start();
+
     }
 }
