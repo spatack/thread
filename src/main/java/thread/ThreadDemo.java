@@ -17,7 +17,8 @@ public class ThreadDemo extends Thread {
 
     public static void main(String[] args) {
         ThreadDemo t1 = new ThreadDemo();
-        t1.run();
+        // 启动线程
+        t1.start();
     }
 
     private void doSomething() {
