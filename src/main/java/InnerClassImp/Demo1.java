@@ -3,7 +3,7 @@ package InnerClassImp;
 /**
  * 在Tread内部实现runnable
  */
-public class MyThread {
+public class Demo1 {
 
     public static void main(String[] args) {
         // 在Thread内部实现runnable

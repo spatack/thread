@@ -3,7 +3,7 @@ package thread;
 /**
  * 使用Thread创建线程
  */
-public class ThreadDemo extends Thread {
+public class Demo1 extends Thread {
 
     /**
      * 重写run方法
@@ -16,7 +16,7 @@ public class ThreadDemo extends Thread {
     }
 
     public static void main(String[] args) {
-        ThreadDemo t1 = new ThreadDemo();
+        Demo1 t1 = new Demo1();
         // 启动线程
         t1.start();
     }
