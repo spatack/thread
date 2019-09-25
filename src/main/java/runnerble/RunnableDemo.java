@@ -10,7 +10,7 @@ public class RunnableDemo implements Runnable {
         doSomething();
     }
 
-    void doSomething() {
+    private void doSomething() {
         for (int i = 1; i <= 10 ; i++) {
             System.out.println("i:"+i);
         }
